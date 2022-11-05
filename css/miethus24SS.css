@@ -1,0 +1,287 @@
+/*fonts*/
+@font-face {
+  font-family: "Open Sans italic";
+  src: url("../fonts/ositalic/OpenSans-Italic.woff2") format("woff2"),
+    url("../fonts/ositalic/OpenSans-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Open Sans";
+  src: url("../fonts/osregular/OpenSans.woff2") format("woff2"),
+    url("../fonts/osregular/OpenSans.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Open Sans semibI";
+  src: url("../fonts/ossemibolditalic/OpenSans-SemiboldItalic.woff2")
+      format("woff2"),
+    url("../fonts/ossemibolditalic/OpenSans-SemiboldItalic.woff") format("woff");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Open Sans semiB";
+  src: url("../fonts/osemibold/OpenSans-Semibold.woff2") format("woff2"),
+    url("../fonts/osemibold/OpenSans-Semibold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Open Sans bold";
+  src: url("../fonts/osbold/OpenSans-Bold.woff2") format("woff2"),
+    url("../fonts/osbold/OpenSans-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+#logo-bg {
+  background-color: #f1662f;
+}
+.container {
+  width: 960px;
+}
+#logo {
+  margin: 20px 0px 25px 0;
+}
+.float-right p {
+  display: inline-block;
+  color: white;
+  font-family: "Open Sans italic";
+  margin: 15px 0 65px 0;
+}
+.nav-link {
+  font-family: "Open Sans semibI";
+  color: #595959;
+}
+.nav a {
+  padding: 20px 25px 20px 0 !important;
+  font-size: 14px;
+  line-height: 34px;
+}
+.nav-link:hover {
+  color: #f16131;
+}
+.active {
+  color: #f16131;
+}
+.form-bg-1 {
+  text-align: center;
+  padding: 165px 0;
+}
+.banner1 {
+  background-image: url(../images/banner1.jpg);
+  width: 100%;
+  height: 390px;
+}
+input,
+button {
+  height: 50px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+}
+
+.form-bg-1 input:first-child {
+  width: 190px;
+}
+.form-bg-2 {
+  background-color: rgba(255, 255, 255, 0.7);
+  display: inline-block;
+  padding: 5px;
+  border-radius: 5px;
+  position: relative;
+}
+.form-bg-2 span {
+  position: absolute;
+  top: 22px;
+  right: 165px;
+}
+.form-bg-1 input:nth-child(2) {
+  width: 140px;
+}
+.form-bg-1 input:nth-child(3) {
+  width: 135px;
+}
+.btnn {
+  width: 140px;
+  background-color: #038bc1;
+  color: white;
+  font-size: 22px;
+  line-height: 34px;
+  font-family: "Open Sans semibI";
+}
+input::placeholder {
+  color: #595959;
+  padding: 20px 0px 20px 15px;
+  font-family: "Open Sans";
+  font-size: 22px;
+  line-height: 34px;
+}
+.content-left {
+  width: 620px;
+  display: inline-block;
+  margin: 70px 30px 0px 0px;
+}
+iframe {
+  margin: 0px 0px 60px 0px;
+  height: 400px;
+}
+.content-left h1 {
+  font-size: 52px;
+  line-height: 60px;
+  color: #f05a32;
+  font-family: "Open Sans semiB";
+}
+.paraone {
+  font-size: 18px;
+  line-height: 26px;
+  color: #555555;
+  font-family: "Open Sans bold";
+}
+.paratwo {
+  font-size: 16px;
+  line-height: 28px;
+  color: #555555;
+  font-family: "Open Sans";
+}
+.paratwo a {
+  color: #f05a32;
+  font-family: "Open Sans semibI";
+}
+
+.content-right {
+  width: 280px;
+  display: inline-block;
+  margin-top: 70px;
+}
+.content-right-one {
+  background-color: #f26c2e;
+  padding: 25px;
+}
+.content-right-one h2 {
+  font-size: 25px;
+  line-height: auto;
+  color: #ffffff;
+  font-family: "Open Sans semiB";
+  margin-bottom: 35px;
+}
+.content-right-one p {
+  display: inline-block;
+  font-size: 18px;
+  line-height: 28px;
+  color: #ffffff;
+  font-family: "Open Sans";
+}
+.content-right-one img {
+  margin-right: 15px;
+}
+
+.content-right-two {
+  text-align: center;
+  padding: 30px 40px 25px 40px;
+  border: 2px solid #f16130;
+  margin: 30px 0;
+}
+
+.content-right-two h3,
+.content-right-three h4 {
+  font-size: 26px;
+  line-height: 34px;
+  color: #f1662f;
+  font-family: "Open Sans semiB";
+}
+.content-right-two p {
+  font-size: 16px;
+  line-height: 32px;
+  font-family: "Open Sans";
+  color: #f1662f;
+}
+.content-right-two button {
+  background-color: #0387bb;
+  font-size: 18px;
+  line-height: 34px;
+  color: #ffffff;
+  font-family: "Open Sans semibI";
+  padding: 8px 30px;
+}
+.content-right-three {
+  padding: 30px 45px;
+  border: 2px solid #f16130;
+}
+.content-right-three img {
+  margin-top: 30px;
+}
+.row h5 {
+  color: #f05a32;
+  font-size: 32px;
+  line-height: 38.4px;
+  font-family: "Open Sans semiB";
+}
+.row p {
+  font-size: 16px;
+  line-height: 25px;
+  font-family: "Open Sans";
+  color: #555555;
+}
+.row button {
+  font-size: 18px;
+  line-height: 34px;
+  color: #ffffff;
+  font-family: "Open Sans semibI";
+  background-color: #0385b7;
+  padding: 8px 25px;
+}
+.row {
+  padding: 40px 0px 35px 0px;
+
+  margin-top: 70px;
+}
+.bottom-bg {
+  background-color: #ececec;
+}
+
+.footer-bg {
+  background-color: #383838;
+  padding: 50px;
+}
+footer p {
+  margin: 0;
+  color: #adadad;
+}
+footer nav ul {
+  margin: 0;
+  position: relative;
+}
+footer nav ul li {
+  display: inline-block;
+  list-style: none;
+  padding: 0;
+}
+footer nav ul li a {
+  color: #adadad;
+  margin-right: 10px;
+  margin-left: 5px;
+  text-transform: uppercase;
+  font-family: "Open Sans semibI";
+}
+footer nav ul li a:hover {
+  text-decoration: none;
+  color: #555555;
+}
+footer nav ul li span {
+  color: #adadad;
+  position: absolute;
+  top: -5px;
+}
